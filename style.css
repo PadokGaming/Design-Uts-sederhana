@@ -1,0 +1,159 @@
+/* CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.banner img {
+    width: 500px;
+    height: 150px;
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 50px 25;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px; 
+    margin-right: 40px;
+}
+
+.link:hover {
+    color: #ccc;
+}
+
+.container {
+    display: flex;
+}
+
+.content h2,
+.content h3 {
+    text-align: center;
+}
+
+.content img {
+    width: 540px; 
+    height: 312px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 20px; 
+}
+
+.sidebar {
+    width: 15%;
+    padding: 20px;
+    background-color: yellow;
+    text-align: left; /* Align text to the left */
+}
+
+.sidebar-list {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+.sidebar-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    font-size: 20px; /* Adjust font size */
+    font-weight: 400;
+}
+
+.sidebar-list li:first-child {
+    font-weight: bold; /* Make the first list item bold */
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.sidebar-link:hover {
+    color: #333; /* Change link color on hover */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center;
+}
+
+.gallery img {
+    margin: 5px;
+    border: 2px solid #333;
+    font-size: 16px;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: 700;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a::hover{
+    color: #333;
+}
+
